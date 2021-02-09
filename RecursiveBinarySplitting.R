@@ -33,3 +33,7 @@ for (i in 1:100){
   store_rss[i] = get_rss(y, X, 2, s)
 }
 sgrid[which.min(store_rss)]
+
+# The value of s that minimizes the rss is 2.98 and the corresponding rss value is 209.63, 
+# The pair of (j, s) that minimizes the rss is (2, 2.98). 
+# The first two regions of the tree are split at R1={X|X2<2.98} and R2={X|X2>=2.98}.
