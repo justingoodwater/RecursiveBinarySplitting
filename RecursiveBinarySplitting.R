@@ -1,4 +1,4 @@
-# build funtion to compute RSS
+# build function to compute RSS
 get_rss <- function(y, X, j, s) {
   R1 = X[ , j] < s
   R2 = X[ , j] >= s
